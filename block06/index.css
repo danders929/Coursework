@@ -1,0 +1,38 @@
+
+
+header {
+    text-align: center;
+    font-size: xx-large;
+    color: #206F4E;
+    margin: 50px;
+}
+
+.location {
+    background-color: azure;
+    width: 450px;
+    margin: 10px;  
+    padding: 10px;
+    font-size: x-large;
+    border-color:black;
+    border-style: solid;
+      
+}
+
+.items {
+    display:inline-block;
+    vertical-align: bottom;
+    background-color: rgb(202, 202, 202);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-color:black;
+    border-style: solid;
+
+}
+img {
+    height: 200px;
+    width: 200px;
+    padding: 2px;
+}
+
