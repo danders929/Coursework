@@ -1,1 +1,17 @@
-console.log('Surprise!')
+let numCows = 50;
+let strHello = "Hello World!";
+console.log(strHello);
+alert(strHello);
+let numUmbrella = 10 * 3;
+let num = 5 + 1;
+alert(num);
+const str = "Hello" + " " + "World.";
+let str1 = "Hello";
+let space = " ";
+let str2 = "I am";
+let name = "Josh!";
+alert(str1 + space + str2 + space + name);
+let bool = true;
+let test = 3===1 && 3 > 1;
+bool = test;
+alert(bool);

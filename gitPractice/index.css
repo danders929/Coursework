@@ -1,0 +1,19 @@
+
+form {
+  display: flex;
+  flex-direction: row;
+  background-color: aqua;
+  gap: 1rem;
+}
+label {
+    background-color: violet;
+}
+input{
+    background-color: brown;
+}
+
+@media (max-width: 650px){
+  form{
+    flex-direction: column;
+ }
+}
