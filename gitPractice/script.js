@@ -1,8 +1,16 @@
-// alerts the user with a pop-up message. Alert is the statement and ("have a great day!") is the argument.
-alert("have a great day!")
-// puts a message in the console
-console.log("I'm in the console!")
+const animals = ["cows","pigs","sheep"];
+const count = animals.push("birdie");
+console.log(animals.pop);
+console.log(count);
+console.log("comment");
 
+for (let i = 0; i<10; i++){ // runs the for loop 10 times.
+  console.log(i);
+};
 
-console.log("comment")
-alert("alert popup")
+let n = 0;
+while(n < 10){
+  console.log(n);
+  n++;
+}
+
