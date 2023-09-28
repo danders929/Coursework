@@ -1,53 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css">
-    <script src="script.js"></script>
-  </head>
-<Header>
-    <h1>How to walk a puppy</h1>
-</Header>
+<html>
   <body>
-    <nav>
-        <a href="H_page">Home</a> |
-        <a href="A_page">About</a> |
-        <a href="C_page">Contact</a> |
-    </nav>
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <script>
+      const body = document.querySelector("body");
+      const h1 = document.createElement("h1");
+      h1.textContent = "Hello World!";
+      body.appendChild(h1);
+      // body.remove();
+      const p = document.querySelectorAll("p");
 
-      <img src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" width="500" alt="He is a cute pupper!">
-      <article>
-      <h2>Introduction</h2>
-      <p style="color: blue">You don't know how to walk a dog?</p>
-      <h2>Equipment</h2>
-      <ul>
-        <li>Puppy</li>
-        <li>Harness</li>
-        <li>Leash</li>
-      </ul>
-      <h2>Directions</h2>
-      <ol>
-        <li>connect to puppy</li>
-        <li>walk doggy</li>
-      </ol>
-      <h2>More info</h2>
-      <p></p>
-      </article>
-    <section class="forms">
-      <h1>My Form Example</h1>
-      <form>
-        <label> First name:  
-          <input type="text" id="nameF">
-        </label><br>
-        <label> Last Name: 
-          <input type="text" id="nameL">
-        </label><br>
-        <label> Cell Phone: 
-          <input type="number" id="cellM">
-        </label>
-      </form>
-    </section>
+      for (const p of p) {
+        this.remove();
+      }
+    </script>
+
   </body>
 </html>

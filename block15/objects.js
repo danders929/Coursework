@@ -17,5 +17,5 @@ function dinTotal(dinners){
   }
   return sum;
 }
-
+console.table(dinner);
 console.log("The total of the dinners is $" + dinTotal(dinner));
